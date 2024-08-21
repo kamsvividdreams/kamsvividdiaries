@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009966; /* Green */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 50px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff6699; /* Pink */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    color: #009966;
+}
+
+footer {
+    background-color: #009966;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
